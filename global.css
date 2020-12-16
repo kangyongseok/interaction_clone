@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', 'Nanum Gothic Coding', monospace, sans-serif;
+}
+
+
+body {
+    background: black;
+    font-size: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.global_nav {
+
+}
+
+.global_nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 980px;
+    height: 44px;
+    margin: 0 auto;
+}
+
+.global_nav ul li {
+    
+}
+
+.global_nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.global_nav ul li a i {
+    font-size: 1.6em;
+}
+
+.sub_nav_content {
+    color: white;
+    height: 52px;
+}
+
+.sub_nav_content_area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 1.4em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sub_nav_content_area h2 {
+    font-weight: 600;
+}
+
+.sub_nav_content_area .utils {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+}
+
+.sub_nav_content_area .utils li {
+    margin-left: 30px;
+}
+
+.sub_nav_content_area .utils li:last-child {
+    background: #0071e3;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
