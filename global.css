@@ -81,3 +81,26 @@ li {
     border-radius: 30px;
 }
 
+.scroll_section {
+    color: white;
+    padding-top: 50vh;
+}
+
+.scroll_section_1 {
+    position: relative;
+}
+
+.sticky_el {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+#show_scene_1 .scroll_section_1 .sticky_el,
+#show_scene_2 .scroll_section_2 .sticky_el,
+#show_scene_3 .scroll_section_3 .sticky_el,
+#show_scene_4 .scroll_section_4 .sticky_el {
+    display: block;
+}
