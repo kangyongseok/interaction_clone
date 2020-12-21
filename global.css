@@ -131,16 +131,17 @@ li {
     top: 0;
     left: 0;
     width: 100%;
+    height: calc(100% - 100px);
     display: none;
 }
 
 .sticky_el.main_message {
-    display: flex;
+    display: flex !important;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 5px 0;
-    height: 3em;
-    font-size: 2.5em;
+    font-size: 5em; 
+    font-weight: bold;
     opacity: 0;
 }
 
@@ -149,4 +150,36 @@ li {
 #show_scene_2 .scroll_section_2 .sticky_el,
 #show_scene_3 .scroll_section_3 .sticky_el {
     display: block;
+}
+
+.desc_message {
+    width: 50%;
+    font-weight: bold;
+}
+
+.scroll_section_2 .b {
+    top: 10%;
+    left: 40%;
+}
+
+.scroll_section_2 .c {
+    top: 15%;
+    left: 45%;
+}
+
+.pin {
+    width: 1px;
+    height: 100px;
+    background: rgb(29, 29, 29);
+}
+
+@media (min-width: 1024px) {
+    .scroll_section_2 .b {
+        top: 20%;
+        left: 53%;
+    }
+    
+    .scroll_section_2 .c {
+        left: 55%;
+    }
 }
