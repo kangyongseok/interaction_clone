@@ -9,7 +9,6 @@
 
 
 body {
-    background: black;
     font-size: 10px;
 }
 
@@ -22,6 +21,7 @@ li {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 .global_nav ul {
@@ -38,7 +38,7 @@ li {
 }
 
 .global_nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: 300;
     font-size: 1.4em;
@@ -49,12 +49,13 @@ li {
 }
 
 .sub_nav_content {
-    color: white;
+    color: black;
     height: 52px;
     width: 100%;
     position: absolute;
     top: 44px;
     left: 0;
+    z-index: 1;
 }
 
 .sub_nav_content_area {
@@ -89,7 +90,7 @@ li {
 }
 
 .scroll_section {
-    color: white;
+    color: black;
     padding-top: 50vh;
     border: 1px solid red;
 }
@@ -112,9 +113,13 @@ li {
     text-align: center;
     font-size: 13em;
     margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .first_contents .view_movie {
+    position: relative;
+    z-index: 1;
     width: 100%;
     display: flex;
     align-content: center;
@@ -133,6 +138,17 @@ li {
     width: 100%;
     height: calc(100% - 100px);
     display: none;
+}
+
+.sticky_el_canvas {
+    top: 0;
+    height: 100%;
+}
+
+.sticky_el_canvas canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 .sticky_el.main_message {
