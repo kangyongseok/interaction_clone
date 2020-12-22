@@ -92,7 +92,7 @@ li {
 .scroll_section {
     color: black;
     padding-top: 50vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .scroll_section_0 {
@@ -171,6 +171,32 @@ li {
 .desc_message {
     width: 50%;
     font-weight: bold;
+    opacity: 0;
+}
+
+.scroll_section_1 {
+
+}
+
+
+.scroll_section_1 div {
+    max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 1rem;
+	font-size: 1.2rem;
+	color: #888;
+}
+
+.scroll_section_1 h1 {
+    float: left;
+    margin-right: 0.2em;
+    font-size: 3rem;
+    color: rgb(29, 29, 31);
+}
+
+.scroll_section_1 p {
+    line-height: 1.5;
+    font-size: 1.5em;
 }
 
 .scroll_section_2 .b {
